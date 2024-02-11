@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+:root{
+    --bgcolor:rgb(135,206,235);
+}
+body{
+    background-color: var(--bgcolor);
+}
+.container p:first-child{
+   background-color: black; 
+   color: white;
+}
+.container p:nth-child(2)
+{
+    color: blue;
+}
+.container p:last-child{
+    color:red;
+}
+li{
+    background-color: gray;
+    width: 50%;
+    padding: 10px;
+}
+ul li:nth-child(odd){
+    background-color: white;
+}
+ul li:first-child{
+    font-size: 22px;
+}
+ul li:last-child{
+    font-size: 22px;
+}
+ul li:nth-child(3){
+    background-color: pink;
+}

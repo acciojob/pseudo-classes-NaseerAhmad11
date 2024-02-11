@@ -11,7 +11,7 @@ body{
 }
 .container p:nth-child(2)
 {
-    color: rgb(0,0,255);
+    color: black;
 }
 .container p:last-child{
     color:red;
